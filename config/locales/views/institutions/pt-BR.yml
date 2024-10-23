@@ -1,0 +1,17 @@
+---
+pt-BR:
+  institutions:
+    create:
+      success: Instituição criada
+    destroy:
+      success: Instituição excluída
+    edit:
+      edit: Editar %{institution}
+    form:
+      name: Nome da instituição financeira
+    new:
+      new_institution: Nova instituição financeira
+    sync:
+      success: Sincronização da instituição iniciada
+    update:
+      success: Instituição atualizada
