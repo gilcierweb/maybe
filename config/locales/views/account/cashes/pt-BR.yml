@@ -1,0 +1,8 @@
+---
+pt-BR:
+  account:
+    cashes:
+      index:
+        cash: Dinheiro
+        name: Nome
+        value: Saldo Total

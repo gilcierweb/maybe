@@ -1,0 +1,26 @@
+---
+pt-BR:
+  account:
+    transfers:
+      create:
+        success: Transferência criada
+      destroy:
+        success: Transferência removida
+      form:
+        amount: Quantia
+        date: Data
+        description: Descrição
+        description_placeholder: Transferência de Conta Corrente para Poupança
+        expense: Despesa
+        from: De
+        income: Renda
+        select_account: Selecionar conta
+        submit: Criar transferência
+        to: Para
+        transfer: Transferir
+      new:
+        title: Nova transferência
+      transfer:
+        remove_body: Isso NÃO excluirá as transações subjacentes. Isso apenas removerá a transferência.
+        remove_confirm: Confirmar
+        remove_title: Remover transferência?

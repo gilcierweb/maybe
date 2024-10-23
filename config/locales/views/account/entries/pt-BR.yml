@@ -1,0 +1,13 @@
+---
+pt-BR:
+  account:
+    entries:
+      destroy:
+        success: Entrada excluída
+      empty:
+        description: Tente adicionar uma entrada, editar filtros ou refinar sua busca
+        title: Nenhuma entrada encontrada
+      loading:
+        loading: Carregando entradas...
+      update:
+        success: Entrada atualizada

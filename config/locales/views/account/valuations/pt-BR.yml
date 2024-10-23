@@ -1,0 +1,28 @@
+---
+pt-BR:
+  account:
+    valuations:
+      create:
+        success: Valuação criada com sucesso.
+      form:
+        cancel: Cancelar
+      index:
+        change: alterar
+        date: data
+        new_entry: Nova entrada
+        no_valuations: Ainda não há valuações para esta conta
+        valuations: Valor
+        value: valor
+      valuation:
+        confirm_accept: Excluir entrada
+        confirm_body_html: "<p>Excluir esta entrada a removerá do histórico da conta, 
+          impactando diferentes partes da sua conta. Isso inclui o patrimônio líquido e 
+          os gráficos da conta.</p></br><p>A única maneira de adicionar essa entrada de 
+          volta é inseri-la manualmente por meio de uma nova entrada.</p>"
+        confirm_title: Excluir Entrada?
+        delete_entry: Excluir entrada
+        edit_entry: Editar entrada
+        no_change: Sem alteração
+        start_balance: Saldo inicial
+        value_update: Atualização de valor
+

@@ -1,0 +1,55 @@
+---
+pt-BR:
+  account:
+    trades:
+      create:
+        failure: Algo deu errado
+        success: Transação criada com sucesso.
+      form:
+        account: Conta de transferência (opcional)
+        account_prompt: Buscar conta
+        amount: Valor
+        holding: Código do ativo
+        price: Preço por ação
+        qty: Quantidade
+        submit: Adicionar transação
+        ticker_placeholder: PETR4
+        type: Tipo
+      index:
+        amount: Valor
+        new: Nova transação
+        no_trades: Ainda não há transações para esta conta.
+        trade: transação
+        trades: Transações
+        type: Tipo
+      new:
+        title: Nova transação
+      show:
+        additional: Adicional
+        cost_per_share_label: Custo por Ação
+        current_market_price_label: Preço Atual de Mercado
+        date_label: Data
+        delete: Excluir
+        delete_subtitle: Esta ação não pode ser desfeita
+        delete_title: Excluir Negociação
+        details: Detalhes
+        exclude_subtitle: Esta negociação não será incluída em relatórios e cálculos
+        exclude_title: Excluir das análises
+        note_label: Observação
+        note_placeholder: Adicione observações adicionais aqui...
+        overview: Visão Geral
+        purchase_price_label: Preço de Compra
+        purchase_qty_label: Quantidade Comprada
+        quantity_label: Quantidade
+        settings: Configurações
+        symbol_label: Código
+        total_return_label: Ganho/perda não realizado
+      trade:
+        buy: Compra
+        deposit: Depósito
+        inflow: Entrada
+        outflow: Saída
+        sell: Venda
+        withdrawal: Saque
+      update:
+        success: Negociação atualizada com sucesso.

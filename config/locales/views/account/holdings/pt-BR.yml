@@ -1,0 +1,36 @@
+---
+pt-BR:
+  account:
+    holdings:
+      holding:
+        per_share: por ação
+        shares: "%{qty} ações"
+      index:
+        cost: custo
+        holdings: Investimentos
+        name: nome
+        needs_sync: Sua conta precisa sincronizar os preços mais recentes para calcular
+          esta carteira
+        new_holding: Nova transação
+        no_holdings: Nenhum investimento para mostrar.
+        return: retorno total
+        weight: peso
+      missing_price_tooltip:
+        description: Este investimento tem valores ausentes e não foi possível calcular
+          seus retornos ou valor.
+        missing_data: Dados ausentes
+      show:
+        avg_cost_label: Preço Médio
+        current_market_price_label: Preço Atual de Mercado
+        delete: Excluir
+        delete_subtitle: Isso excluirá o investimento e todas as suas negociações associadas
+          nesta conta. Esta ação não pode ser desfeita.
+        delete_title: Excluir investimento
+        history: Histórico
+        overview: Visão Geral
+        portfolio_weight_label: Peso na Carteira
+        settings: Configurações
+        ticker_label: Código do Ativo
+        trade_history_entry: "%{qty} ações de %{security} a %{price}"
+        trend_label: Tendência
+        unknown: Desconhecido
