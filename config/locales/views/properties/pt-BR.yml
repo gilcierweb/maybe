@@ -1,0 +1,7 @@
+---
+pt-BR:
+  properties:
+    create:
+      success: Propriedade criada com sucesso
+    update:
+      success: Propriedade atualizada com sucesso

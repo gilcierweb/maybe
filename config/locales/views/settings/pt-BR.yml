@@ -16,7 +16,7 @@ pt-BR:
       general_section_title: Geral
       imports_label: Importações
       logout: Sair
-      merchants_label: Comerciantes
+      merchants_label: Estabelecimentos
       other_section_title: Mais
       preferences_label: Preferências
       profile_label: Conta
@@ -59,6 +59,6 @@ pt-BR:
         profile_subtitle: Personalize como você aparece no Maybe
         profile_title: Perfil
         save: Salvar
-      user_avatar_field:
-        accepted_formats: JPG ou PNG. 5MB max.
-        choose: Escolher
+    user_avatar_field:
+      accepted_formats: JPG ou PNG. 5MB max.
+      choose: Escolher

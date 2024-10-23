@@ -1,0 +1,10 @@
+---
+pt-BR:
+  password_mailer:
+    password_reset:
+      cta: Redefinir sua senha
+      ignore_if_not_requested: Se você não fez esse pedido, pode ignorar este 
+        email.
+      request_made: Um pedido foi feito para redefinir sua senha do Maybe. Clique no link 
+        para redefini-la..
+      subject: 'Maybe: Redefinir sua senha'

@@ -1,0 +1,15 @@
+---
+pt-BR:
+  password_resets:
+    create:
+      requested: Se uma conta com esse email existir, enviamos um link para 
+        redefinir sua senha.
+    edit:
+      submit: Atualizar senha
+      title: Redefinir senha
+    new:
+      submit: Redefinir senha
+      title: Redefinir senha
+    update:
+      invalid_token: Token inválido.
+      success: Sua senha foi redefinida.
