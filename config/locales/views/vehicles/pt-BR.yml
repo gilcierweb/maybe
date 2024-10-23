@@ -1,0 +1,7 @@
+---
+pt-BR:
+  vehicles:
+    create:
+      success: Veículo criado com sucesso
+    update:
+      success: Veículo atualizado com sucesso
