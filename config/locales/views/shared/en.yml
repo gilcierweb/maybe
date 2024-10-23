@@ -24,3 +24,6 @@ en:
       dismiss: Dismiss
       new_version_available: A new version of Maybe is available for upgrade.
       upgrade_now: Upgrade Now
+    value_heading:
+      not_available: Data not available for the selected period
+      No_change_vs_prior_period: No change vs. prior period

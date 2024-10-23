@@ -22,3 +22,6 @@ pt-BR:
       dismiss: Dismiss
       new_version_available: Uma nova versão do Maybe está disponível para atualização.
       upgrade_now: Atualizar agora
+    value_heading:
+      not_available: Dados não disponíveis para o período selecionado
+      No_change_vs_prior_period: Nenhuma alteração vs. período anterior

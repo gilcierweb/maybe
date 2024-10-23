@@ -9,9 +9,9 @@
     <% end %>
   </p>
   <% if trend.nil? %>
-    <p class="text-sm text-gray-500">Data not available for the selected period</p>
+    <p class="text-sm text-gray-500"><%= t("shared.value_heading.not_available") %></p>
   <% elsif trend.direction.flat? %>
-    <p class="text-sm text-gray-500">No change vs. prior period</p>
+    <p class="text-sm text-gray-500"><%= t("shared.value_heading.not_available") %></p>
   <% else %>
     <div class="flex items-center gap-2">
       <%= render partial: "shared/trend_change", locals: { trend: trend } %>
