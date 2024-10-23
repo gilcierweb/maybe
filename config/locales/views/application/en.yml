@@ -11,3 +11,13 @@ en:
         precision: 2
         separator: "."
         unit: "$"
+  helpers:
+    period_label:
+      since_account_creation: since account creation
+      starting_from: Starting from
+      ending_at: Ending at
+      vs_yesterday: vs. yesterday
+      vs_last_week: vs. last week
+      vs_last_month: vs. last month
+      vs_last_year: vs. last year
+      from: from

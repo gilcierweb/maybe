@@ -11,3 +11,13 @@ pt-BR:
         precision: 2
         separator: ","
         unit: "R$"
+  helpers:
+    period_label:
+      since_account_creation: desde a criação da conta
+      starting_from: Começando a partir de
+      ending_at: Terminando em
+      vs_yesterday: em relação a ontem
+      vs_last_week: em relação à semana passada
+      vs_last_month: em relação ao mês passado
+      vs_last_year: em relação ao ano passado
+      from: de

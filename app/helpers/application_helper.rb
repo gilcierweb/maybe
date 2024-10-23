@@ -123,25 +123,25 @@ module ApplicationHelper
   end
 
   def period_label(period)
-    return "since account creation" if period.date_range.begin.nil?
+    return I18n.t("helpers.period_label.since_account_creation") if period.date_range.begin.nil?
     start_date, end_date = period.date_range.first, period.date_range.last
 
-    return "Starting from #{start_date.strftime('%b %d, %Y')}" if end_date.nil?
-    return "Ending at #{end_date.strftime('%b %d, %Y')}" if start_date.nil?
+    return "#{I18n.t("helpers.period_label.starting_from")} #{start_date.strftime('%b %d, %Y')}" if end_date.nil?
+    return "#{I18n.t("helpers.period_label.ending_at")} #{end_date.strftime('%b %d, %Y')}" if start_date.nil?
 
     days_apart = (end_date - start_date).to_i
 
     case days_apart
     when 1
-      "vs. yesterday"
+      I18n.t("helpers.period_label.vs_yesterday")
     when 7
-      "vs. last week"
+      I18n.t("helpers.period_label.vs_last_week")
     when 30, 31
-      "vs. last month"
+      I18n.t("helpers.period_label.vs_last_month")
     when 365, 366
-      "vs. last year"
+      I18n.t("helpers.period_label.vs_last_year")
     else
-      "from #{start_date.strftime('%b %d, %Y')} to #{end_date.strftime('%b %d, %Y')}"
+      "#{I18n.t("helpers.period_label.from")} #{start_date.strftime('%b %d, %Y')} to #{end_date.strftime('%b %d, %Y')}"
     end
   end
 
