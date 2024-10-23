@@ -29,10 +29,6 @@ module Maybe
     # TODO: This is here for incremental adoption of localization.  This can be removed when all translations are implemented.
     config.i18n.fallbacks = true
 
-    # TODO: check best model for translate ex: www.example.com/books?locale=pt-BR
-    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}')]
-    config.i18n.default_locale = :'pt-BR'
-
     config.app_mode = (ENV["SELF_HOSTED"] == "true" || ENV["SELF_HOSTING_ENABLED"] == "true" ? "self_hosted" : "managed").inquiry
   end
 end

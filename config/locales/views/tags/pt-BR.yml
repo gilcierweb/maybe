@@ -1,0 +1,20 @@
+---
+pt-BR:
+  tags:
+    create:
+      created: Tag criada
+    edit:
+      edit: Editar tag
+    form:
+      placeholder: Nome da tag
+    index:
+      empty: Nenhuma tag ainda
+      new: Nova tag
+      tags: Tags
+    new:
+      new: Nova tag
+    tag:
+      delete: Excluir
+      edit: Editar
+    update:
+      updated: Tag atualizada
